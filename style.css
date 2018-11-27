@@ -1,52 +1,20 @@
-/* header {
-    padding-left: 250px;
-    padding-right: 255px;
-    height: 65px;
-    overflow: hidden;
-    background-color: #ffffff;
-    border-bottom: 2px solid #dddddd; */
-    
-}
-
-
-/* h1 {
-    margin: 0;
-    height: 65px;
-    width: 150px;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #4aaaa5;
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    font-weight: bolder;
-    text-decoration: none; 
-    line-height: 25px; */
-   
-      
-}
+/* Navbar */
 
 .navbar .navbar-expand-lg .navbar-dark {
     width: 100%;
-    
-
 }
 
-.nav-link {
-    text-align: left;
-    
+.navbar-brand{
+    font-size: 20px;
 }
 
+/* Main Content */
 
-
-h2,
-h3 {
+h2 {
     clear: both;
     font-family: Arial, Helvetica, sans-serif;
     color: #2e948f;
     font-size: 30px;
-    /* font-weight: bolder; */
     padding-top: 30px;
 }
 
@@ -55,7 +23,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    border-width: 1px;
+    border-width: .8px;
     border-color: #1d1c1c;
     background: #1d1c1c;
     margin-bottom: 20px;
@@ -68,9 +36,9 @@ hr {
     min-height: 100%;
     width: 100%;
     margin: 0;
-    position: relative
     
- }
+    
+ } 
 
 body {
     background-image: url("images/concrete-texture.png") ;
@@ -78,17 +46,16 @@ body {
 
 
  #main {
-    overflow: auto;
     width: 960px;
+    height: 100%;
     padding-left: 35px;
     padding-right: 35px;
-    /* padding-bottom: 55px; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-    position: relative;  
+     
 
 }
 
@@ -97,25 +64,9 @@ a {
     text-decoration: none;
     color: white; 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    width: 80px;
-    height: 40px;
-   
-    
-    
+    font-size: 15px;
 }
 
-#about,
-#portfolio {
-    padding-right: 40px;
-   
-}
-
-#contact,
-#about,
-#portfolio {
-    padding-top: 20px;
-}
 
 p {
     color: #777777;
@@ -129,10 +80,11 @@ img {
     float: left;
     padding: 8px;
     padding-right: 20px;
-    width: 220px;
-    height: 240px; 
+    width: 100%;
+    height: auto; 
 }
 
+/* Footer */
 
 #footer {
     clear: both;
@@ -155,6 +107,24 @@ img {
 
 }
 
+/* Portfolio */
+
+.card {
+    margin: 10px;
+    background: #dbb432;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.card-image-top {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Form */
+
 input,
 textarea {
     color: #666666;
@@ -174,44 +144,25 @@ textarea {
     color: #ffffff;
     font-weight: bolder;
     letter-spacing: 3px;
+    margin-bottom: 15px;
 }
 
+/* Media */
+
+@media screen and (max-width: 768px) {
+    #container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main {
+        width: 100%;
+    }
 
 
-.img-1,
-.img-2,
-.img-3,
-.img-4,
-.img-5 { 
-    position: relative; 
-    width: 250px;
-    height: 200px;
-    float: left;
-    z-index: 1;
-   
- }
- 
-.caption {
-    clear: both;
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+
 }
 
-span { 
-    color: white; 
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    background: #296460;
-    padding: 2px; 
-    text-align: center;
- }
-
- 
- 
- 
  
  
  
