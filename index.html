@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   
 </head>
 
 <body>
 
+     <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1d1c1c ;">
         <a class="navbar-brand" href="#">Kelsey Tobin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -25,21 +25,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+                    <a name="index-link" href="#portfolio">About</a>
                 </li>
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a name="portfolio-link" href="#portfolio">Portfolio</a>
                 </li>
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                    <!-- <a class="nav-link" href="contact.html">Contact</a> -->
+                    <a name="contact-link" href="#contact">Contact</a> 
             </ul>
         </div>
     </nav>
+    <!-- End Navbar -->
 
 
-    <div id="container">
+    <div class="container">
         <div id="main">
             <div class="row">
                 <div class="col-sm-12">
@@ -66,21 +70,48 @@
 
                     <p>
                         I am a Wyoming based aspiring software developer who is looking to expand my skill set and project portfolio to launch myself into a new realm of career exploration. 
-                        I enjoy solving complex problems in a team based environment as well as focused individualised work. The breadth of my career experience lies within customer service and administrative work
-                        which I hope to use to my advantage in networking and marketing myself into this new field. 
+                        I enjoy solving complex problems in a team based environment as well as focused individualised work. 
                     </p>
 
-
-                    <p>
-                        The hobbies I hold nearest and dearest to my heart are travel, back-country skiing, fly-fishing, music, cooking, and time lounging with pups. 
-                        I strive to challenge myself, continue learning new skills, and contribute to the world in a larger way- while maintaing a heavy work/play balance.
-                    </p>
                 </div>
-
+                
+                <div class="row" id="contact">
+                    <div class="col-sm-12">
+                        <div class="maintitle">
+                            <h2>Contact</h2>
+                            <hr>
+                            </hr>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form>
+    
+                            <input name="name" type="text" class="form-control" placeholder="Your Name">
+    
+                            <br>
+    
+                            <input name="email" type="email" class="form-control" placeholder="Your Email">
+    
+                            <br>
+    
+                            <textarea name="message" type="text" class="form-control" placeholder="Message" rows="4" width="100%"
+                                height=""></textarea>
+    
+                            <br>
+    
+                            <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+    
+                        </form>
+                    </div>
+    
 
             </div>
 
-
+            <!-- Start Footer -->
             <footer id="footer">
                 <footer class="footercontent">
                     Copyright &#169;
@@ -88,6 +119,10 @@
             </footer>
 
         </div>
+
+    <!-- Link Jquery and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </body>
 

@@ -31,7 +31,7 @@ hr {
 }
 
 
-#container {
+.container {
     clear: right;
     min-height: 100%;
     width: 100%;
