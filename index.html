@@ -4,133 +4,111 @@
 <head>
     <meta charset="USF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Kelsey Tobin</title>
-    
+    <title>Kelsey Tobin</title>
+
     <!-- css reset -->
-    <link rel="stylesheet" href="assets/reset.css">
-    
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
     
-    <!-- local css -->
-        <link rel="stylesheet" href="assets/style.css">
-   
+    <!-- link google font library -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <!--local css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
-
-     <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1d1c1c ;">
-        <a class="navbar-brand" href="#">Kelsey Tobin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                
-                <li class="nav-item">
-                    <a name="index-link" href="#portfolio">About</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a name="portfolio-link" href="#portfolio">Portfolio</a>
-                </li>
-                
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="contact.html">Contact</a> -->
-                    <a name="contact-link" href="#contact">Contact</a> 
-            </ul>
-        </div>
-    </nav>
-    <!-- End Navbar -->
-
-
-    <div class="container">
-        <div id="main">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="maintitle">
-                        <h2>About Me</h2>
-                        <hr>
-                        </hr>
-                    </div>
+    <main>
+    <!-- home section -->
+    <section>
+    <div class="uk-container" id="home">
+        <div id="particles-js">
+            <!-- Navbar/Intro Container -->
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
+            </nav>
+            <!-- end navbar -->
 
+            <div class="welcome-text">
+                <!-- Headers -->
+                <h1 class="uk-heading-hero"><span>I'm Kelsey</span></h1>
+                <h2 class="uk-heading-line uk-text-right"><span>I'm a Web Developer</span></h2>
+                <h3 class="uk-heading-line uk-text-left"><span>Follow my Work </span></h3>
+
+                <div class="icons">
+                    <a href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fab fa-wordpress-simple"></i>
+                    </a>
+                        
+                </div>
             </div>
+        </div>
+            
+    </div>
+</section> 
+<!-- end home section -->
 
-            <div class="row">
-
-
-                <div class="col-sm-3">
-
-                    <img src="images/fishing.jpg" alt="Kelsey">
-                </div>
-
-
-                <div class="col-sm-9">
-
-
-                    <p>
+<!-- start about me section -->
+<section>
+    <div class="uk-container" id="about">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <div class="about-text">
+                    <p class="title-small">ABOUT ME</p>
+                    <h4>Hello! I am Kelsey Tobin</h4>
+                    <p class="about-info">
                         I am a Wyoming based aspiring software developer who is looking to expand my skill set and project portfolio to launch myself into a new realm of career exploration. 
                         I enjoy solving complex problems in a team based environment as well as focused individualised work. 
                     </p>
-
+                    <h5>Skills</h5>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-node"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-html5"></i>
                 </div>
-                
-                <div class="row" id="contact">
-                    <div class="col-sm-12">
-                        <div class="maintitle">
-                            <h2>Contact</h2>
-                            <hr>
-                            </hr>
-                        </div>
-                    </div>
-    
-                </div>
-    
-                <div class="row">
-                    <div class="col-sm-12">
-                        <form>
-    
-                            <input name="name" type="text" class="form-control" placeholder="Your Name">
-    
-                            <br>
-    
-                            <input name="email" type="email" class="form-control" placeholder="Your Email">
-    
-                            <br>
-    
-                            <textarea name="message" type="text" class="form-control" placeholder="Message" rows="4" width="100%"
-                                height=""></textarea>
-    
-                            <br>
-    
-                            <input type="submit" class="form-control-submit" value="SEND MESSAGE">
-    
-                        </form>
-                    </div>
-    
-
             </div>
-
-            <!-- Start Footer -->
-            <footer id="footer">
-                <footer class="footercontent">
-                    Copyright &#169;
-                </footer>
-            </footer>
-
         </div>
 
-    <!-- Link Jquery and Bootstrap JS -->
+    </div>
+</section>
+
+</main>
+
+
+    <!-- link particle -->
+    <script type="text/javascript" src="assets/javascript/particles.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    <!-- Link Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
 
 </body>
 
