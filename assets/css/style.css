@@ -1,6 +1,11 @@
+html {
+    background: whitesmoke;
+}
+
 body {
     margin: 0;
     padding: 0;
+
 }
 
 .uk-container {
@@ -15,7 +20,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
     /* position: fixed; */
     overflow: hidden;
 }
@@ -26,8 +31,9 @@ body {
     margin-top: none;
     padding: 0;
     /* position: relative; */
-    border: 5px solid orange;
-    overflow: hidden
+    /* border: 5px solid orange; */
+    overflow: hidden;
+    background: white;
 }
 
 /* .services-content {
@@ -39,7 +45,7 @@ body {
     min-height: 400px;
     margin-top: none;
     padding: 0;
-    border: 5px solid hotpink;
+    /* border: 5px solid hotpink; */
     background: black;
     /* background: url("../images/group.jpg") no-repeat center; 
     background-size: cover;
@@ -101,15 +107,22 @@ a {
     margin-right: 15px; 
 }
 
-h4, h5 {
+h4, h5, h6 {
     margin-top: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
 }
 
+#get-in-touch {
+    font-size: 30px;
+}
+
 #about-text {
     font-family: 'Raleway', sans-serif;
     color: gray;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    
 }
 
 .col-md-6 .uk-text-center {
@@ -120,6 +133,14 @@ h4, h5 {
 progress {
     background: gray;
     color: black;
+}
+
+#contact {
+    background: white;
+}
+
+.contact-detail {
+    padding-left: 20px;
 }
 
 /* Media */
