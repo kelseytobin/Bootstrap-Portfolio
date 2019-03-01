@@ -152,6 +152,11 @@ progress {
     padding-bottom: 20px;
 }
 
+#projectlink {
+    color: hotpink;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 /* Media */
 
