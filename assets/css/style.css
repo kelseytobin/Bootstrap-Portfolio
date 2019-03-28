@@ -110,10 +110,6 @@ span {
     font-family: 'Raleway', sans-serif;
 }
 
-#projectLink {
-    color:gray;
-} 
-
 a {
     color: white;
     margin-right: 15px; 
@@ -147,7 +143,8 @@ progress {
     color: black;
 }
 
-#contact {
+#contact,
+#portfolio {
     background: white;
 }
 
