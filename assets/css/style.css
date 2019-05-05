@@ -105,7 +105,7 @@ body {
     color: rgb(212, 209, 209)
 }
 
-span {
+span, #livesite {
     color: whitesmoke;
     font-family: 'Raleway', sans-serif;
 }
