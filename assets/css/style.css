@@ -36,10 +36,6 @@ body {
     background: white;
 }
 
-/* .services-content {
-    position: relative;
-} */
-
 #services {
     width: 100%;
     min-height: 400px;
@@ -47,11 +43,6 @@ body {
     padding: 0;
     /* border: 5px solid hotpink; */
     background: black;
-    /* background: url("../images/group.jpg") no-repeat center; 
-    background-size: cover;
-    height: 400px;
-    position: relative;
-    opacity: 0.3; */
 }
 
 #service-img {
