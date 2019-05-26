@@ -90,6 +90,11 @@ body {
 
 }
 
+img.project-img.uk-cover {
+    width: 325px;
+    height: 250px;
+}
+
 .uk-heading-line {
     color: rgb(212, 209, 209)
 }
