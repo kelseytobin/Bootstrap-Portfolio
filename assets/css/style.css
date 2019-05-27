@@ -90,9 +90,9 @@ body {
 
 }
 
-img.project-img.uk-cover {
-    width: 325px;
-    height: 250px;
+img {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .uk-heading-line {
