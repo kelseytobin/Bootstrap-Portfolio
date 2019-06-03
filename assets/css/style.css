@@ -31,7 +31,6 @@ body {
     margin-top: none;
     padding: 0;
     overflow: hidden;
-    background: white;
 }
 
 /* not being used currently */
@@ -86,7 +85,7 @@ body {
 	padding: 2em 3em;
 	background: rgba(0, 0, 0, 0.4);
     text-shadow: 0px 0px 2px #131415;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 
 }
 
@@ -94,6 +93,7 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 
 .uk-heading-line {
     color: rgb(212, 209, 209)
@@ -105,23 +105,36 @@ img {
 
 .uk-card-title {
     font-weight: bolder;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 span, #livesite {
     color: whitesmoke;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a {
     color: white;
     margin-right: 15px; 
-} 
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#contactme {
+    color: #666;
+    font-size: 2em;
+}
 
 h4, h5, h6 {
     margin-top: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-weight: bolder;
+}
+
+h5 {
+    margin-bottom: 0;
 }
 
 .project-description {
@@ -142,7 +155,7 @@ ul {
 }
 
 #about-text {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: gray;
     margin-bottom: 5px;
     padding-top: 10px;
@@ -154,12 +167,13 @@ ul {
     padding-right: 40px;
 }
 
-#contact,
+/* #contact,
 #portfolio {
     background:black;
-}
+} */
 
 .contact-detail {
+    padding-top: 30px;
     padding-left: 40px;
     padding-bottom: 20px;
 }

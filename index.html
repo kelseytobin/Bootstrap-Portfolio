@@ -22,7 +22,7 @@
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <!-- link google font library -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 
     <!--local css -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -38,15 +38,15 @@
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
                         <li class="uk-active"><a href="#home" uk-scroll>Home</a></li>
-                        <li><a href="#about" uk-scroll>Services</a></li>
+                        <!-- <li><a href="#about" uk-scroll>Services</a></li> -->
                         <li><a href="#portfolio" uk-scroll>Portfolio</a></li>
-                        <li><a href="#contact" uk-scroll>Contact</a></li>
+                        <li><a href="#contact" uk-scroll>Connect</a></li>
                     </ul>
                 </div>
             </nav>
             <!-- end navbar -->
 
-            <div class="welcome-text">
+            <div class="welcome-text uk-container">
                 <!-- Headers -->
                 <h1 class="uk-heading-hero"><span>I'm Kelsey</span></h1>
                 <h2 class="uk-heading-line uk-text-right"><span>I'm a Full Stack Developer</span></h2>
@@ -72,7 +72,7 @@
     <!-- end home section -->
 
     <!-- start about me section -->
-    <section id="about">
+    <!-- <section id="about">
         <div class="contact-header">
             <p class="uk-text-center" id="about-text">SERVICES</p>
 
@@ -80,15 +80,31 @@
         </div>
         <div class="row">
             <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</div>
-                <div>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</div>
-                <div>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.</div>
+                <div>
+                    <h5 class="uk-text-center">Front End Development</h5>
+                    <br>
+                    <p>
+                    Custom website development and maitenance.
+                    </p>
+                </div>
+                <div>
+                    <h5 class="uk-text-center">Skills and Languages</h5>
+                    <br>
+                    <p>
+                    HTML CSS JavaScript jQuery Firebase NodeJS ExpressJS PassportJS Mongo MySQL ReactJS WordPress Handlebars
+                    Git Heroku 
+                    </p>
+                </div>
+                <div>
+                    <h5 class="uk-text-center">Back End Development</h5>
+                    <br>
+                    <p>
+                    Database management and communication to the client side
+                    </p>
+                </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- end about me section -->
 
     <!-- Parallax section -->
@@ -197,7 +213,7 @@
                     <div>
                         <div class="uk-card-body">
                             <h3 class="uk-card-title">Get Out and Explore</h3>
-                            <h6></h6>
+                            <h6>Single page web application utilizing multiple APIs</h6>
                             <p class="project-description">An event finding application intended to help the user get to know they 
                                 city they already live in or explore new locales</p>
                             <ul>
@@ -253,41 +269,77 @@
     <!-- begin contact section -->
     <section id="contact">
         <div class="contact-header">
-            <p class="uk-text-center" id="about-text">CONTACT ME</p>
+            <p class="uk-text-center" id="about-text">CONNECT</p>
 
             <h4 id="get-in-touch" class="uk-text-center">Get In Touch</h4>
         </div>
-
         <div class="row">
+            <div class="uk-grid uk-child-width-expand@s" uk-grid>
+                <div class="uk-text-center">
+                    <h5 class="uk-text-center">About Me</h5>
+                    <br>
+                    <p>
+                    I am a full stack developer with a thirst for learning and problem solving.
+                    I enjoy the creative expression of a sleek UI/UX and streamlined back end code. 
+                    I come from a background in GIS and varying customer facing roles. I bring strong skills in brainstorming
+                    tangible solutions to current processes, building customer relationships, and delivering results.
+                    </p>
+                </div>
+                <div class="uk-text-center">
+                        <img class="uk-border-circle" width="350" height="350" src="assets/images/kelseybw.jpg"> 
+                      </div>
+                <div class="uk-text-center">
+                    <h5 class="uk-text-center">Contact</h5>
+                    <br>
+                    <p>
+                        <a id="contactme" href="https://www.linkedin.com/in/kelseytobin/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+    
+                        <a id="contactme" href="https://github.com/kelseytobin" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+    
+                        <a id="contactme" href="assets/resume/resume.pdf" target="_blank">
+                            <i class="far fa-file"></i></i>
+                        </a>
+                    </p>
+                    <p class="uk-text-center"><span uk-icon="icon: mail"></span>&nbsp;kelseytobindev@gmail.com</p>
+                    <p class="uk-text-center"><span uk-icon="icon: location"></span>&nbsp;Jackson WY</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row">
             <div class="uk-child-width-1-2@s uk-grid-small uk-grid-match" uk-grid>
-                <!-- contact div -->
+               
                 <div class="uk-card uk-card-default uk-card-body">
                     <div class="contact-detail">
                         <h5 class="uk-card-title">Contact</h5>
-                        <p id="address uk-text-left"><span uk-icon="icon: location"></span>Jackson WY</p>
-                        <p id="email uk-text-left"><span uk-icon="icon: mail"></span>kelseytobindev@gmail.com</p>
+                        <div class="icons">
+                            <a id="contactme" href="https://www.linkedin.com/in/kelseytobin/" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+        
+                            <a id="contactme" href="https://github.com/kelseytobin" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+        
+                            <a id="contactme" href="assets/resume/resume.pdf" target="_blank">
+                                <i class="far fa-file"></i></i>
+                            </a>
+                        </div>
+                        <p id="email uk-text-left"><span uk-icon="icon: mail"></span>&nbsp;kelseytobindev@gmail.com</p>
+                        <p id="address uk-text-left"><span uk-icon="icon: location"></span>&nbsp;Jackson WY</p>
                     </div>
                 </div>
-                <!-- contact text div -->
-                <!-- <div class="uk-card uk-card-default uk-card-body">
-                        <form>
-                            <div class="uk-margin">
-                                <div class="uk-inline">
-                                    <span class="uk-form-icon" uk-icon="icon: user"></span>
-                                    <input class="uk-input" type="text">
-                                </div>
-                            </div>
-
-                            <div class="uk-margin">
-                                <div class="uk-inline">
-                                    <span class="uk-form-icon" uk-icon="icon: mail"></span>
-                                    <input class="uk-input" type="text">
-                                </div>
-                            </div>
-                        </form>
-                    </div> -->
+                
+                <div class="uk-card uk-card-default uk-card-body">
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="350" height="350" src="assets/images/kelseybw.jpg">
+                    </div>       
+                </div> 
             </div>
-        </div>
+        </div> -->
 
     </section>
     <!-- end contact section -->
