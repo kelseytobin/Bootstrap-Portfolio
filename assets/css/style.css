@@ -70,6 +70,10 @@ img {
     padding-bottom: 15px;
 }
 
+.uk-section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 .uk-heading-line {
     color: rgb(212, 209, 209)
